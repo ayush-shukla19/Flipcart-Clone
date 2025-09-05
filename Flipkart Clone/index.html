@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flipkart</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="js/bootstrap.bundle.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+    <!-- Navbar start -->
+        <div class="row">
+            <div class="col-sm-12">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="images/logo.svg" alt="" />
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <form class="d-flex w-50" role="search">
+                                <input class="form-control me-2" type="search"
+                                    placeholder="Search for Products,Brands and More" aria-label="Search" />
+                            </form>
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item mx-3">
+                                    <a class="nav-link active" aria-current="page" href="login.html">
+                                        <i class="fa-solid fa-user"></i>&nbsp;&nbsp;Login</a>
+                                </li>
+                                <li class="nav-item mx-3">
+                                    <a class="nav-link active" href="#"><i
+                                            class="fa-solid fa-cart-shopping"></i>&nbsp;&nbsp;Cart</a>
+                                </li>
+                                <li class="nav-item mx-3">
+                                    <a class="nav-link active" href="#"><i class="fa-solid fa-box "></i>&nbsp;&nbsp;Become a seller</a>
+                                </li>
+                                <li class="nav-item mx-3">
+                                    <a class="nav-link active" href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar end -->
+        <!-- categary start -->
+        <div class="row d-flex justify-content-around mt-3">
+            <div class="col-sm 1 text-center">
+                <img src="images/categories/asset 17.png" alt="" />
+                <h6 class="text-center">Grocery</h6>
+            </div>
+            <div class="col-sm 1 text-center">
+                <img src="images/categories/asset 18.png" alt="" />
+                <h6 class="text-center">Mobile</h6>
+            </div>
+            <div class="col-sm 1 text-center">
+                <img src="images/categories/asset 19.png" alt="" />
+                <h6 class="text-center">Fashion</h6>
+            </div>
+            <div class="col-sm 1 text-center">
+                <img src="images/categories/asset 20.png" alt="" />
+                <h6 class="text-center">Electronics</h6>
+            </div>
+            <div class="col-sm 1 text-center">
+                <img src="images/categories/asset 21.jpeg" alt="" />
+                <h6 class="text-center">Home & Furniture</h6>
+            </div>
+            <div class="col-sm 1 text-center">
+                <img src="images/categories/asset 22.jpeg" alt="" />
+                <h6 class="text-center">Appliances</h6>
+            </div>
+            <div class="col-sm 1 text-center">
+                <img src="images/categories/asset 23.png" alt="" />
+                <h6 class="text-center">Flight Bookings</h6>
+            </div>
+            <div class="col-sm 1 text-center">
+                <img src="images/categories/asset 24.png" alt="" />
+                <h6 class="text-center">Beauty,Toys & more</h6>
+            </div>
+            <div class="col-sm 1">
+                <img src="images/categories/asset 25.png" alt="" />
+                <h6 class="text-center">Two Wheelers</h6>
+            </div>
+        </div>
+        <!-- categary end -->
+        <!-- slider start -->
+        <div class="row mt-3">
+            <div class="col-sm-12">
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/slider/s1.jpg" class="d-block w-100" alt="..." />
+                        </div>                       
+                        <div class="carousel-item">
+                            <img src="images/slider/s3.jpg" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/slider/s4.jpg" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/slider/s2.jpg" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/slider/s6.jpg" class="d-block w-100" alt="..." />
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- slider end -->
+        <!--electronics start  -->
+        <div class="row mt-3">
+            <div class="col-sm-10">
+                <div class="row my-2">
+                    <div class="col-sm-6">
+                        <h2>Best of electronics</h2>
+                    </div>
+                    <div class="col-sm-6 text-end">
+                        <button class="btn btn-primary rounded-circle">&gt;</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="card p-2">
+                            <img src="images/electronics/monitor.jpeg" class="card-img-top" alt="..." height="180bh" />
+                            <div class="card-body">
+                                <p class="card-text text-center">
+                                    Best Monitor
+                                    <br />
+                                    <b> From &#8377; 29,999</b>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card p-2">
+                            <img src="images/electronics/oneplus-buds.jpeg" class="card-img-top" alt="..."
+                                height="180bh" />
+                            <div class="card-body">
+                                <p class="card-text text-center">
+                                    Earbud
+                                    <br />
+                                    <b> Grab now</b>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card p-2">
+                            <img src="images/electronics/projector.jpeg" class="card-img-top" alt="..."
+                                height="180bh" />
+                            <div class="card-body">
+                                <p class="card-text text-center">
+                                    projector
+                                    <br />
+                                    <b> From &#8377; 19,999</b>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card p-2">
+                            <img src="images/electronics/watch.jpeg" class="card-img-top" alt="..." height="180bh" />
+                            <div class="card-body">
+                                <p class="card-text text-center">
+                                    Best Watch
+                                    <br />
+                                    <b> From &#8377; 999</b>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card p-2">
+                            <img src="images/electronics/watch2.jpg" class="card-img-top" alt="..." height="180bh" />
+                            <div class="card-body">
+                                <p class="card-text text-center">
+                                    Premium Watches
+                                    <br />
+                                    <b> From &#8377; 1,999</b>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <img src="images/airindia.jpg" alt="" class="img-fluid" />
+            </div>
+        </div>
+        <!-- electronics end -->
+        <!-- toy start -->
+        <div class="row mt-3">
+            <div class="col-sm-12">
+                <div class="row my-2">
+                    <div class="col-sm-6">
+                        <h2>Beauty, Food, Toys & more</h2>
+                    </div>
+                    <div class="col-sm-6 text-end">
+                        <button class="btn btn-primary rounded-circle">&gt;</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="card p-2">
+                            <img src="images/beauty_toys/books.jpeg" class="card-img-top" alt="..." height="180bh" />
+                            <div class="card-body">
+                                <p class="card-text text-center">
+                                    Best Books
+                                    <br />
+                                    <b> Starting from &#8377; 299</b>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card p-2">
+                            <img src="images/beauty_toys/coffee_powder.jpeg" class="card-img-top" alt="..."
+                                height="180bh" />
+                            <div class="card-body">
+                                <p class="card-text text-center">
+                                    Coffee_powder
+                                    <br />
+                                    <b> Grab now</b>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card p-2">
+                            <img src="images/beauty_toys/microphone.jpeg" class="card-img-top" alt="..."
+                                height="180bh" />
+                            <div class="card-body">
+                                <p class="card-text text-center">
+                                    Microphones
+                                    <br />
+                                    <b> At just &#8377; 99</b>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card p-2">
+                            <img src="images/beauty_toys/push-up-bar.jpeg" class="card-img-top" alt="..." height="180bh" />
+                            <div class="card-body">
+                                <p class="card-text text-center">
+                                    Gym bar
+                                    <br />
+                                    <b> At  &#8377; 999</b>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card p-2">
+                            <img src="images/beauty_toys/puzzle.jpeg" class="card-img-top" alt="..." height="180bh" />
+                            <div class="card-body">
+                                <p class="card-text text-center">
+                                   Games
+                                    <br />
+                                    <b> From &#8377; 499</b>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card p-2">
+                            <img src="images/beauty_toys/toy.jpeg" class="card-img-top" alt="..." height="180bh" />
+                            <div class="card-body">
+                                <p class="card-text text-center">
+                                    Toys
+                                    <br />
+                                    <b> At  &#8377; 199</b>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- toy end -->
+        <!-- winter start -->
+           <div class="row mt-3">
+            <div class="col-sm-4">
+                <div class="row my-2 mx-2">
+                 <div class="col-sm-11">
+                        <h2>Winter Essentials for You</h2>
+                    </div>
+                    <div class="col-sm-1 ">
+                        <button class="btn btn-primary rounded-circle">&gt;</button>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-sm-6">
+                        <div class="card p-2">
+                            <img src="images/winters/jackets1.jpeg" class="card-img-top" alt="..." height="180bh">
+                            <div class="card-body">
+                              <p class="card-text text-center">Men's jacket <br><b class="text-success">Min 50% off</b>
+                              </p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card p-2">
+                            <img src="images/winters/winter2.jpg" class="card-img-top" alt="..." height="180bh">
+                            <div class="card-body">
+                              <p class="card-text text-center">Women's wear <br><b class="text-success">Min 60% off</b>
+                              </p>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card p-2">
+                            <img src="images/winters/winter3.jpg" class="card-img-top" alt="..." height="180bh">
+                            <div class="card-body">
+                              <p class="card-text text-center">Men's collection <br><b class="text-success">Min 40% off</b>
+                              </p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card p-2">
+                            <img src="images/winters/winter4.jpg" class="card-img-top" alt="..." height="180bh">
+                            <div class="card-body">
+                              <p class="card-text text-center">Men's wear<br><b class="text-success">Min 30% off</b>
+                              </p>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-8 selling-phone">
+                </div>
+           </div>
+    <!-- winter end -->
+     <!-- other start -->
+      <div class="row">
+        <div class="col-sm-4">
+                <div class="row my-2 mx-2">
+                 <div class="col-sm-11">
+                        <h2>Make Your Home Stylish</h2>
+                    </div>
+                    <div class="col-sm-1 ">
+                        <button class="btn btn-primary rounded-circle">&gt;</button>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-sm-6">
+                        <div class="card p-2">
+                            <img src="images/other/homeessential.jpg" class="card-img-top" alt="..." height="180bh">
+                            <div class="card-body">
+                              <p class="card-text text-center">Best Essentials <br><b class="text-success">Min 10% off</b>
+                              </p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card p-2">
+                            <img src="images/other/homeessential2.jpg" class="card-img-top" alt="..." height="180bh">
+                            <div class="card-body">
+                              <p class="card-text text-center">Stylish  <br><b class="text-success">Min 30% off</b>
+                              </p>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card p-2">
+                            <img src="images/other/homeessential3.jpg" class="card-img-top" alt="..." height="180bh">
+                            <div class="card-body">
+                              <p class="card-text text-center">Materials <br><b class="text-success">Min 20% off</b>
+                              </p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card p-2">
+                            <img src="images/other/homeessential4.jpg" class="card-img-top" alt="..." height="180bh">
+                            <div class="card-body">
+                              <p class="card-text text-center">Study Materials<br><b class="text-success">Min 30% off</b>
+                              </p>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+        </div>
+        <div class="col-sm-4">
+                <div class="row my-2 mx-2">
+                 <div class="col-sm-11">
+                        <h2>End Of Season Bestsellers</h2>
+                    </div>
+                    <div class="col-sm-1 ">
+                        <button class="btn btn-primary rounded-circle">&gt;</button>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-sm-6">
+                        <div class="card p-2">
+                            <img src="images/other/fancy1.jpg" class="card-img-top" alt="..." height="180bh">
+                            <div class="card-body">
+                              <p class="card-text text-center">Best wear <br><b class="text-success">Min 50% off</b>
+                              </p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card p-2">
+                            <img src="images/other/fancy2.jpg" class="card-img-top" alt="..." height="180bh">
+                            <div class="card-body">
+                              <p class="card-text text-center">Women's wear <br><b class="text-success">Min 60% off</b>
+                              </p>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card p-2">
+                            <img src="images/other/fancy3.jpg" class="card-img-top" alt="..." height="180bh">
+                            <div class="card-body">
+                              <p class="card-text text-center">Children Section<br><b class="text-success">Min 40% off</b>
+                              </p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card p-2">
+                            <img src="images/other/fancy4.jpg" class="card-img-top" alt="..." height="180bh">
+                            <div class="card-body">
+                              <p class="card-text text-center">Men's wear<br><b class="text-success">Min 30% off</b>
+                              </p>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+        </div>
+        <div class="col-sm-4">
+                <div class="row my-2 mx-2">
+                 <div class="col-sm-11">
+                        <h2>Best Gadgets & Appliances</h2>
+                    </div>
+                    <div class="col-sm-1 ">
+                        <button class="btn btn-primary rounded-circle">&gt;</button>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-sm-6">
+                        <div class="card p-2">
+                            <img src="images/other/g1.jpg" class="card-img-top" alt="..." height="180bh">
+                            <div class="card-body">
+                              <p class="card-text text-center">Home Gadgets <br><b class="text-success">Min 40% off</b>
+                              </p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card p-2">
+                            <img src="images/other/g2.jpg" class="card-img-top" alt="..." height="180bh">
+                            <div class="card-body">
+                              <p class="card-text text-center">Appliances <br><b class="text-success">Min 30% off</b>
+                              </p>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card p-2">
+                            <img src="images/other/g3.jpg" class="card-img-top" alt="..." height="180bh">
+                            <div class="card-body">
+                              <p class="card-text text-center">Best collection<br><b class="text-success">Min 40% off</b>
+                              </p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card p-2">
+                            <img src="images/other/g4.jpg" class="card-img-top" alt="..." height="180bh">
+                            <div class="card-body">
+                              <p class="card-text text-center">Gifts<br><b class="text-success">Min 30% off</b>
+                              </p>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+        </div>
+      </div>
+      <!-- other end -->
+     <!-- top stories start-->
+      <div class="row mt-4 py-5 mybg">
+        <div class="col-sm-12">
+            <h4>Top stories : Brand Directory</h4>
+            <p class="myfont"> MOST SEARCHED FOR ON FLIPKART:
+                <a href="" class="text-decoration-none text-secondary"> iPhone 16 | iPhone 16 Plus | iPhone 16 Pro | iPhone 16 Pro Max | REDMI Note 14 Pro+ 5G | Whoop Band | OPPO Find X8 | Flipkart Minutes | Flipkart Exchange | Flipkart Reset | Nothing Phone 2a Plus | Sarees | CMF by Nothing Phone 1 Pocket Bazaar | Xiaomi 14 CIVI | Infinix Note 40 Pro 5G | iPhone 15 | Infinix Note 40 5G | IPhone 15 Plus | vivo X Fold3 Pro | Motorola g04s | Vivo x 100 | OnePlus Nord CE 3 Lite 5G | Spoy! Store | SAMSUNG Flip5 | SAMSUNG Fold5 | Flipkart Axis Bank Super Elite Credit card | 5G Mobile Phones | Primebook Laptops | Moto Edge 40 | Grievance Redressal | OPPO Reno7 Pro 5G | Help Centre | Track Orders | Manage Orders | Return Orders | Gift Cards Store | Flipkart Axis Bank Credit Card | Pay Later</a>
+                <br>
+                MOBILES
+                <a href="" class="text-decoration-none text-secondary"> Motorola 964 5G | OPPO Reno 12 | Motorola Edge 50 Fusion | REDMI 12 5G | REDMI Note 13 5G | Realme 12+ 5G | POCO C65 | Motorola G84 | Realme C53 | Infinix Smart 8 | Samsung Galaxy S23 5G | Samsung Galaxy S21 FE 5G Qualcomm | vivo V30 | Samsung Galaxy S24 5G | Samsung Galaxy S24+5G | iPhone 12 64GB | iPhone 12 Pro 512GB | iPhone 12 128GB | Vivo Y15 | SAMSUNG Galaxy S21 FE 5G | Infinix HOT 30i | Realme 10 Pro 5G | MOTOROLA G62 5G | Nothing Phone | REDMI Note 12 Pro 5G | Infinix SMART 7 | Vivo Y12 | Oppo A12 | Motorola 5g Phone | Realme 5g Smartphone | Apple 5g Phone | Iqoo 5g Phones | Oneplus 5g Phones | Vivo 5g Phones | Oppo 5g Smart Phones | Oppo F15 | Oppo A31 | Samsung A71 | Samsung A51 | Samsung A31 | 4G Mobile | Nokia Mobile | Samsung Mobile | iphone | Oppo Mobile | Vivo Mobile</a>
+                <br>
+                Camera
+                <a href="" class="text-decoration-none text-secondary"> GoPro Action Camera Nikon Camera Canon Camera Sony Camera | Canon DSLR Nikon DSLR</a>
+                <br>
+                LAPTOPS
+                <a href="" class="text-decoration-none text-secondary"> Asus ROG Ally | MacBook Pro M2 | Premium Laptop | ASUS ROG Strix SCAR 16 (2023) Core i9 13th Gen | ASUS ROG Zephyrus M16 (2023) Core i9 13th Gen | ASUS Zenbook 14 OLED (2022) | Realme Book Prime Core i5 11th Gen | Microsoft Surface Go Pentium 128GB | Apple Laptops | Acer Laptops | Lenovo Laptops Dell Laptops Asus Laptops HP Laptops Gaming Laptops 2 in 1 Laptops Laptops Dell latest laptops 2022 HP latest laptops 2022 | Infinix INBook Y1 Plus SAMSUNG Galaxy Book3 | 12th Gen Intel Core Laptops</a>
+                <br>
+                TVS
+                <a href="" class="text-decoration-none text-secondary"> Nokia TV | Panasonic TV | Thomson TV | Mi X Pro | Realme TV | Motorola TV | OnePlus TVs | LG TV | Television | Sony TV | Samsung TV | Android Television | Iffalcon Tv | MI TV</a>
+                <br>
+                LARGE APPLIANCES:
+                <a href="" class="text-decoration-none text-secondary"> Television | Washing Machines | Refrigerators | Air Conditioners | Electric Cookers | Electric Jug(Heater) / Travel Kettles | Induction Cooktops | Inverters / stabilizer Irons/Iron Box | Mixer Grinder Juicer | Wet Grinders | Chimneys | Microwave Ovens | Vacuum Cleaners | Water Purifier | Fan</a>
+                <br>
+                CLOTHING
+                 <a href="" class="text-decoration-none text-secondary">Sarees | Green bridal lehenga | Tops | Apron for Doctors | Shoes Sunglasses | Bridal Blouse | Half saree blouse designs | Designer blouses | Blouse designs | Shirts | Cotton saree blouse designs | Tshirts | Jeans | Dresses | One pieces | Groom wedding sherwani | Designer Salwar Suits | Bra | Cotton simple blouse designs | Banarasi saree blouse designs | Stylish blouse astin design | Track Pant | Blouse neck designs | Kurtas | Party Dresses | Palazzo Suits | Anarkali | Gowns | Cut out dress | Salwar Suits | Kurtis | Designer Sarees | Leggings | Shorts | Georgette Sarees | Ethnic Wear | uppada pattu sarees | Blouse back design | Jodhpur pants</a>
+                 <br>
+                 FOOTWEAR:
+                  <a href="" class="text-decoration-none text-secondary">Adidas Shoes | Reebok Shoes | Nike Shoes | Puma Shoes | Boots | Bata Shoes | Woodland Shoes | Skechers Shoes | Sneakers | Womens Boots | Sports Shoes | Loafers | Sandals | Lotto Sports Shoes | Casual Shoes | Womens Skechers Shoes Asics Sports Shoes Formal Shoes | School Shoes</a>
+                <br>
+                GROCERIES 
+                <a href="" class="text-decoration-none text-secondary">PhonePe Grocery Voucher | Hand Wash | Soap | Cashew Nuts | Sunflower Oil | Eggs | Toilet Cleaner | Harpic Toilet Cleaner | Dettol Soap | Mustard Oil | Biscuits | Cheese | Patanjali Atta | Fortune Oil | Aashirvaad Atta | Tea</a>
+                <br>
+                BEST SELLING ON FLIPKART 
+                <a href="" class="text-decoration-none text-secondary">Headphones | Best Gas Geyser | Kitchen Geyser | Nutri Blenders | Portable Air Cooler | Best Air Cooler Bags | Hitachi Refrigerator 3 Door | Books | Toys | Candles | Helmets | Wall Clocks | Baby Food | Chocolates | Cycles | Calculators | Lipsticks | Mask | Vertiv UPS | Fastrack Watches | Wallets | Earrings | Gold Coins | Realme Pad Mini | Handbags | conekt SW2 Smartwatch | Mivi DuoPods a350 | Speaker Cleaner</a>
+                <br>
+                 FURNITURE 
+                 <a href="" class="text-decoration-none text-secondary">Furniture | Sofas | Beds | Dining sets | Wardrobes | Mattresses | TV Units | Tables | Chairs | Shelves | Bean Bags | Office Chairs | Computer Table | Office Tables | Red Sofa | Wakefit Beds | White Sofa | Wakefit Mattress | Green Sofa | Black Sofa Brown Sofa</a>
+                 <br>
+                 BGMH:
+                  <a href="" class="text-decoration-none text-secondary">Shampoo | Whey Protein | Homeopathy | Cricket | Cycles | Footballs | Treadmills | Christmas Gifts | Fitness Accessories | Online Guitar | Books Store | Musical Instrument Store | Dabur Chyawanprash | Baidyanath Chyawanprash | Energy Drinks Toys Milk Drink Mixes Chyawanprash Indian Flag Protein Supplements</a>
+                  <br>
+                  <br>
+                  <b class="text-secondary">Flipkart: The One-stop Shopping Destination</b>
+                  <br>
+                   <p class="myfont text-secondary">E-commerce is revolutionizing the way we all shop in India. Why do you want to hop from one store to another in search of the latest phone when you can find it on the Internet in a single click? Not only mobiles. Flipkart houses everything you can possibly Imagine, from trending electronics like laptops, tablets, smartphones, and mobile accessories to in-vogue fashion staples like shoes, clothing and lifestyle accessories; from modern furniture like sofa sets, dining tables, and wardrobes to appliances that make your life easy like washing machines, TVs, ACs, mixer grinder juicers and other time-saving kitchen and small appliances; from home furnishings like cushion covers, mattresses and bedsheets to toys and musical instruments, we got them all covered. You name it, and you can stay assured about finding them all here. For those of you with erratic working hours, Flipkart is your best bet. Shop in your PJs, at night or in the wee hours of the moming. This e-commerce never shuts down.
+                    <br>
+                    What's more, with our year-round shopping festivals and events, our prices are irresistible. We're sure you'll find yourself picking up more than what you had in mind. If you are wondering why you should shop from Flipkart when there are multiple options available to you, well, the below will answer your question.</p>
+                    <br>
+                    <b class="text-secondary" >Flipkart Plus</b>
+                    <br>
+                    <p class="myfont text-secondary">
+                        A world of limitless possibilities awaits you - Flipkart Plus was kickstarted as a loyalty reward programme for all its regular customers at zero subscription fee. All you need is 500 supercoins to be a part of this service. For every 100 rupees spent on Flipkart order, Plus members earns 4 supercoins & non-plus members earn 2 supercoins. Free delivery, early access during sales and shopping festivals, exchange offers and priority customer service are the top benefits to a Flipkart Plus member. In short, eam more when you shop more!
+                    <br><br>
+                      What's more, you can even use the Flipkart supercoins for a number of exciting services, like: <br>
+                      An annual Zomato Gold membership <br>
+                      An annual Hotstar Premium membership <br>
+                      6 months Gaana plus subscription <br>
+                      Rupees 550 instant discount on flights on ixigo <br>
+                      Check out https://www.flipkart.com/plus/all-offers for the entire list. Terms and conditions apply
+                    </p>
+                    <br>
+                    <b class="text-secondary">No Cost EMI</b>
+                    <p class="myfont text-secondary">
+                        In an attempt to make high-end products accessible to all, our No Cost EMI plan enables you to shop with us under EMI, without shelling out any processing fee. Applicable on select mobiles, laptops, large and small appliances, furniture, electronics and watches, you can now shop without burning a hole in your pocket. If you've been eyeing a product for a long time, chances are it may be up for a no cost EMI. Take a look ASAP! Terms and conditions apply.
+                    </p>
+                    <br>
+                     <b class="text-secondary">EMI on Debit Cards</b>
+                      <p class="myfont text-secondary">
+                        Did you know debit card holders account for 79.38 crore in the country, while there are only 3.14 crore credit card holders? After enabling EMI on Credit Cards, in another attempt to make online shopping accessible to everyone, Flipkart introduces EMI on Debit Cards, empowering you to shop confidently with us without having to worry about pauses in monthly cash flow. At present, we have partnered with Axis Bank, HDFC Bank, State Bank of India and ICICI Bank for this facility. More power to all our shoppers! Terms and conditions apply.
+                      </p>
+                      <br>
+                      <b class="text-secondary">Mobile Exchange Offers</b>
+                       <p class="text-secondary">Get an instant discount on the phone that you have been eyeing on. Exchange your old mobile for a new one after the Flipkart experts calculate the value of your old phone, provided it is in a working condition without damage to the screen. If a phone is applicable for an exchange offer, you will see the Buy with Exchange" option on the product description of the phone, So, be smart, always opt for an exchange wherever possible. Terms and conditions apply.
+                    </p>
+            </p>
+        </div>
+      </div>
+      <!-- top stories end-->
+       <!-- footer start -->
+        <div class="row bg-dark text-light p-5 border-bottom border-secondary">
+            <div class="col-sm-7 border-end border-secondary">
+                <div class="row myfont">
+                 <div class="col-sm-3">
+                    <h6 class="text-secondary">ABOUT</h6>
+                    <a href="" class="text-decoration-none text text-light">Contact Us</a><br>
+                    <a href="" class="text-decoration-none text text-light">About Us</a><br>
+                    <a href="" class="text-decoration-none text text-light">Careers</a><br>
+                    <a href="" class="text-decoration-none text text-light">Flipkart Stories</a><br>
+                    <a href="" class="text-decoration-none text text-light">Press</a><br>
+                    <a href="" class="text-decoration-none text text-light">Corparate Information</a><br>
+                 </div>
+                <div class="col-sm-3">
+                    <H6 class="text-secondary">GROUP COMPANIES</H6>
+                    <a href="" class="text-decoration-none text text-light">Myntra</a><br>
+                    <a href="" class="text-decoration-none text text-light">Cleartrip</a><br>
+                    <a href="" class="text-decoration-none text text-light">Shopsy</a><br>
+                </div>
+                <div class="col-sm-3">
+                    <H6 class="text-secondary">HELP</H6>
+                    <a href="" class="text-decoration-none text text-light">Payments</a><br>
+                    <a href="" class="text-decoration-none text text-light">Shipping</a><br>
+                    <a href="" class="text-decoration-none text text-light">Cancellation</a><br>
+                    <a href="" class="text-decoration-none text text-light">FAQ</a><br>
+                </div>
+                <div class="col-sm-3">
+                    <H6 class="text-secondary">CONSUMER POLICY</H6>
+                    <a href="" class="text-decoration-none text text-light">Cancellation & Returns</a><br>
+                    <a href="" class="text-decoration-none text text-light">Terms Of Uses</a><br>
+                    <a href="" class="text-decoration-none text text-light">Security</a><br>
+                    <a href="" class="text-decoration-none text text-light">Privacy</a><br>
+                    <a href="" class="text-decoration-none text text-light">Sitemap</a><br>
+                    <a href="" class="text-decoration-none text text-light">Grievance Redressal</a><br>
+                    <a href="" class="text-decoration-none text text-light">EPR Compiance</a><br>
+                </div>
+            </div>
+            </div>
+            <div class="col-sm-5">
+                <div class="row myfont">
+                    <div class="col-sm-6">
+                        <h6 class="text-secondary">Mail Us:</h6>
+                        <p class="text-decoration-none text-light">Flipkart Internet Private Limited,<br>
+                            Buildings Alyssa, Begonia & <br>Clove Embassy Tech Village,<br>Outer Ring Road, Devarabeesanahalli Village,<br>Bengaluru, 560103,<br> Karnataka, India 
+                            <h6 class="text-secondary ">Social:</h6>
+                            <i class="fa-brands fa-facebook mx-2"></i>
+                            <i class="fa-brands fa-x-twitter mx-2"></i>
+                            <i class="fa-brands fa-youtube mx-2"></i>
+                    </div>
+                    <div class="col-sm-6">
+                        <h6 class="text-secondary">Registered Office Address:</h6>
+                        <p class="text-decoration-none text-light">Flipkart Internet Private Limited,<br>
+                            Buildings Alyssa, Begonia & <br>Clove Embassy Tech Village,<br>
+                             Outer Ring Road, Devarabeesanahalli Village,<br>Bengaluru, 560103,<br> Karnataka, India 
+                            CIT: US1109KA2012PTC066107 <br>Telephone: <u><a href="">044-45814700/044-67415800</a></u></p><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row bg-dark text-light myfont py-4 px-5">
+            <div class="col-sm-8">
+                <div class="row">
+                    <div class="col">
+                        <a class="nav-link active" href="#"><i class="fa-solid fa-box text-warning"></i>&nbsp;Become a seller</a>
+                    </div>
+                    <div class="col">
+                        <a class="nav-link active" href="#"><i class="fa-regular fa-star text-warning"></i>&nbsp;Advertise</a>
+                    </div>
+                    <div class="col">
+                        <a class="nav-link active" href="#"><i class="fa-solid fa-gift text-warning"></i>&nbsp;Gift Cards</a>
+                    </div>
+                    <div class="col">
+                        <a class="nav-link active" href="#"><i class="fa-solid fa-question text-warning"></i>&nbsp;Help Center</a>
+                    </div>
+                    <div class="col">
+                        <a class="nav-link active" href="#"><i class="fa-regular fa-copyright "></i> &nbsp;2007-2024 Flipkart.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <img src="images/payment-method-c454fb.svg" alt="">
+            </div>
+        </div>
+        <!-- footer end -->
+    </div>
+</body>
+</html>
